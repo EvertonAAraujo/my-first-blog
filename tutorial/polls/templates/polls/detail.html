@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{ pergunta.pergunta_text }}</h1>
+
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+    <form action="{% url 'polls:voto' pergunta.id %}" method="post">
+    {% csrf_token %}
+    {% for escolha in pergunta.escolha_set.all %}
+        <input type="radio" name="escolha" id="escolha{{ forloop.counter }}" value="{{ escolha.id }}" />
+        <label for="escolha{{ forloop.counter }}">{{ escolha.escolha_text }}</label><br />
+    {% endfor %}
+    <input type="submit" value="Voto" />
+    </form>
+
+</body>
+</html>
