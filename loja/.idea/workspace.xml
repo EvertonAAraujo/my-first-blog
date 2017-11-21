@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="530bfe06-a9ec-4f06-b784-900cdb808edc" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/migrations/0002_auto_20171121_1537.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/migrations/0003_cliente_telefone.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polls/migrations/0004_venda_atualizacao.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/admin.py" afterPath="$PROJECT_DIR$/polls/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/models.py" afterPath="$PROJECT_DIR$/polls/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -318,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511284391791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionado campos">
+      <created>1511286840181</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511286840181</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,7 +357,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste" />
+    <MESSAGE value="Adicionado campos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado campos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
