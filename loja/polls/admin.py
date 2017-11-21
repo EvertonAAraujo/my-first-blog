@@ -6,8 +6,9 @@ from .models import Question, Choice, Cliente, Produto, Venda
 
 class VendaAdmin(admin.ModelAdmin):
     raw_id_fields = ['cliente', 'produto']
-    list_display = ['cliente', 'produto', 'quantidade', 'valor', 'data']
+    list_display = ['cliente', 'produto', 'quantidade', 'valor', 'data', 'atualizacao']
     readonly_fields = ['valor']
+    readonly_fields = ['atualizacao']
 
 
 class ProdutoAdmin(admin.ModelAdmin):
